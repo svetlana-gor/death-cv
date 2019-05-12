@@ -1,19 +1,19 @@
 body {
-    width: 21cm;
-    height: 29.7cm;
+    width: 797px;
+    height: 1127px;
     margin: 15px auto;  /* выравнивание по центру */
     box-shadow: 10px 10px 20px black; /* тень */
     font-family: Tahoma, sans-serif;
     font-size: 15px;
 }
 
-main {
+.main {
     position: absolute;
 }
 
 header {
-    width: 21cm;
-    height: 4.7cm;
+    width: 797px;
+    height: 178px;
     background-image: url(../images/11.png);
     background-position: center;
     background-size: cover;
@@ -41,41 +41,33 @@ h1 {
 
 .contact {
     float: left;
-    width: 7.3cm;
-    height: 25cm;
+    width: 277px;
+    height: 948px;
     background-color: #f0f0f0;
 }
 
 h2 {
     font-size: 15px;
-    margin-left: 17px;
-    margin-bottom: 5px;
+    margin: 17px;
     color: #4e595a;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c7c7c7;
 }
 
-p, div {
+.communications, .atribut, .data {
+    margin-top: 40px;
+}
+
+p {
     margin-left: 17px;
     margin-right: 17px;
     text-align: justify;
 }
 
-.communications, .atribut {
-    margin-top: 30px;
-}
-
 img {
     margin: 17px;
-    margin-bottom: 40px;
     border: 10px solid #c7c7c7;
     display: block;
-}
-
-hr {
-    margin-left: 17px;
-    margin-right: 17px;
-    background-color: #c7c7c7;
-    height: 2px;
-    border: none;
 }
 
 dt {
@@ -90,7 +82,7 @@ dt {
 
 }
 
-.contact ul {
+ul {
     margin-left: -8px;
 }
 
@@ -112,8 +104,8 @@ a:hover img {
 
 .skill {
     float: right;
-    width: 13.7cm;
-    height: 25cm;
+    width: 520px;
+    height: 948px;
     z-index: 1;
 }
 
