@@ -1,0 +1,133 @@
+body {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 15px auto;  /* выравнивание по центру */
+    box-shadow: 10px 10px 20px black; /* тень */
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+main {
+    position: absolute;
+}
+
+header {
+    width: 21cm;
+    height: 4.7cm;
+    background-image: url("11.png");
+    background-position: center;
+    background-size: cover;
+    color: #9ea3a2;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.hello, .antrop, h1 {
+    text-align: center;
+}
+
+.hello {
+    padding-top: 1cm;
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin: 8px;
+}
+
+.antrop {
+    margin-top: 3px;
+}
+
+.contact {
+    float: left;
+    width: 7.3cm;
+    height: 25cm;
+    background-color: #f0f0f0;
+}
+
+h2 {
+    font-size: 15px;
+    margin-left: 17px;
+    margin-bottom: 5px;
+    color: #4e595a;
+}
+
+p, div {
+    margin-left: 17px;
+    margin-right: 17px;
+    text-align: justify;
+}
+
+.communications, .atribut {
+    margin-top: 30px;
+}
+
+img {
+    margin: 17px;
+    margin-bottom: 40px;
+    border: 10px solid #c7c7c7;
+    display: block;
+}
+
+hr {
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color: #c7c7c7;
+    height: 2px;
+    border: none;
+}
+
+dt {
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+    width: 60px;
+}
+
+.contact dd {
+    margin-bottom: 12px;
+
+}
+
+.contact ul {
+    margin-left: -8px;
+}
+
+.contact li {
+    margin-bottom: 5px;
+}
+
+li img, .cats {
+    display: none;
+    position: absolute;
+    top: 30%;
+    border: 0;
+    left: 10%;
+}
+
+a:hover img {
+    display: block;
+}
+
+.skill {
+    float: right;
+    width: 13.7cm;
+    height: 25cm;
+    z-index: 1;
+}
+
+.skill:before {
+    content: "";
+    background-image: url("2.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: bottom right;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
