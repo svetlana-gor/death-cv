@@ -8,7 +8,7 @@ body {
 }
 
 .page {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
 }
 
@@ -71,15 +71,14 @@ p {
     text-align: justify;
 }
 
-dt {
-    float: left;
+table {
     margin-left: 17px;
     margin-right: 17px;
-    width: 60px;
 }
 
-dd {
-    margin-bottom: 12px;
+td, tr {
+    padding-top: 10px;
+    padding-right: 15px;
 }
 
 ul {
@@ -104,6 +103,7 @@ a:hover img {
 
 .skill {
     /* float: right; */
+    position: relative;
     width: 520px;
     height: 948px;
     z-index: 1;
@@ -113,13 +113,16 @@ a:hover img {
     content: "";
     background-image: url(../images/2.png);
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: cover; /* ! */
     background-position: bottom right;
     position: absolute;
     z-index: -1;
     opacity: 0.4;
-    top: 0;
+    /* top: 0; */
     bottom: 0;
-    left: 0;
+    /* left: 0; */
     right: 0;
+    display: block;
+    width: 300px;
+    height: 300px;
 }
