@@ -1,19 +1,21 @@
 body {
-    width: 797px;
-    height: 1127px;
-    margin: 15px auto;  /* выравнивание по центру */
-    box-shadow: 10px 10px 20px black; /* тень */
+    width: 100%;
+    max-width: 800px;
+    margin: 15px auto;
+    box-shadow: 10px 10px 20px black;
     font-family: Tahoma, sans-serif;
     font-size: 15px;
 }
 
+@media screen and (max-width: 800px){
+
+}
+
 .page {
-    /* position: absolute; */
     display: flex;
 }
 
 header {
-    width: 797px;
     height: 178px;
     background-image: url(../images/11.png);
     background-position: center;
@@ -41,14 +43,13 @@ h1 {
 }
 
 .contact {
-    /* float: left; */
-    width: 277px;
-    height: 948px;
+    width: 37%;
     background-color: #f0f0f0;
 }
 
-img {
-    margin: 17px;
+.foto {
+    width: 220px;
+    margin: 17px auto;
     border: 10px solid #c7c7c7;
     display: block;
 }
@@ -66,8 +67,8 @@ h2 {
 }
 
 p {
-    margin-left: 17px;
-    margin-right: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
     text-align: justify;
 }
 
@@ -89,10 +90,10 @@ li {
     margin-bottom: 5px;
 }
 
-li img, .cats {
+.cats {
     display: none;
     position: absolute;
-    top: 30%;
+    top: 60%;
     border: 0;
     left: 10%;
 }
@@ -102,10 +103,8 @@ a:hover img {
 }
 
 .skill {
-    /* float: right; */
     position: relative;
-    width: 520px;
-    height: 948px;
+    width: 63%;
     z-index: 1;
 }
 
@@ -113,14 +112,12 @@ a:hover img {
     content: "";
     background-image: url(../images/2.png);
     background-repeat: no-repeat;
-    background-size: cover; /* ! */
+    background-size: cover;
     background-position: bottom right;
     position: absolute;
     z-index: -1;
     opacity: 0.4;
-    /* top: 0; */
     bottom: 0;
-    /* left: 0; */
     right: 0;
     display: block;
     width: 300px;
