@@ -7,8 +7,15 @@ body {
     font-size: 15px;
 }
 
-@media screen and (max-width: 800px){
-
+@media screen and (max-width: 799px){
+    .page {
+        flex-direction: column;}
+    .contact {
+        width: 100%;
+        flex-basis: 200px;
+        align-self: auto; /* работает выравнивание по правому краю! */}
+    .skill {
+        width: 100%;}
 }
 
 .page {
