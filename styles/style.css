@@ -9,6 +9,7 @@ body {
 
 .page {
     position: absolute;
+    display: flex;
 }
 
 header {
@@ -40,7 +41,7 @@ h1 {
 }
 
 .contact {
-    float: left;
+    /* float: left; */
     width: 277px;
     height: 948px;
     background-color: #f0f0f0;
@@ -79,7 +80,6 @@ dt {
 
 dd {
     margin-bottom: 12px;
-
 }
 
 ul {
@@ -103,7 +103,7 @@ a:hover img {
 }
 
 .skill {
-    float: right;
+    /* float: right; */
     width: 520px;
     height: 948px;
     z-index: 1;
