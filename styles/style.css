@@ -7,12 +7,6 @@ body {
     font-size: 15px;
 }
 
-@media screen and (max-width: 799px){
-    .page {
-        flex-direction: column;}
-    
-}
-
 .page {
     display: flex;
 }
@@ -45,15 +39,14 @@ h1 {
 }
 
 .contact {
-    /* width: 37%; */
     background-color: #f0f0f0;
 }
 
 .foto {
     width: 220px;
-    margin: 17px auto;
+    margin: 17px 17px;
     border: 10px solid #c7c7c7;
-    display: block;
+
 }
 
 h2 {
@@ -65,7 +58,7 @@ h2 {
 }
 
 .contact h2 {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 p {
@@ -97,7 +90,7 @@ li {
     position: absolute;
     top: 60%;
     border: 0;
-    left: 10%;
+    left: 0;
 }
 
 a:hover img {
@@ -106,7 +99,6 @@ a:hover img {
 
 .skill {
     position: relative;
-    /* width: 63%; */
     z-index: 1;
 }
 
@@ -124,4 +116,15 @@ a:hover img {
     display: block;
     width: 300px;
     height: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .page {
+        flex-direction: column;}
+    .data {
+        display: flex;}
+    .dann {
+        width: 40%;}
+    td, tr {
+        padding-right: 5px;}
 }
