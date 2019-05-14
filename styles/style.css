@@ -10,12 +10,7 @@ body {
 @media screen and (max-width: 799px){
     .page {
         flex-direction: column;}
-    .contact {
-        width: 100%;
-        flex-basis: 200px;
-        align-self: auto; /* работает выравнивание по правому краю! */}
-    .skill {
-        width: 100%;}
+    
 }
 
 .page {
@@ -50,7 +45,7 @@ h1 {
 }
 
 .contact {
-    width: 37%;
+    /* width: 37%; */
     background-color: #f0f0f0;
 }
 
@@ -111,7 +106,7 @@ a:hover img {
 
 .skill {
     position: relative;
-    width: 63%;
+    /* width: 63%; */
     z-index: 1;
 }
 
