@@ -125,7 +125,13 @@ a:hover img {
         display: flex;
         flex-wrap: wrap;}
     .dann {
-        width: 40%;}
+        flex-grow: 1;
+    }
+    .dann h2, .com h2, .atr h2 {
+        margin-top: 17px;}
     td, tr {
         padding-right: 5px;}
+    a:hover img {
+        display: none;
+    }
 }
